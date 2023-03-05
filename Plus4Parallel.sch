@@ -266,7 +266,6 @@ Text Notes 7675 4115 2    50   ~ 0
 ACK
 NoConn ~ 7840 4115
 NoConn ~ 7840 3015
-NoConn ~ 7840 2415
 NoConn ~ 7840 2615
 Text Notes 7680 2615 2    50   ~ 0
 ERROR
@@ -275,10 +274,6 @@ AUTOFEED
 Text Notes 7680 3015 2    50   ~ 0
 SELECT_PRINTER
 NoConn ~ 7840 2815
-Wire Bus Line
-	2420 3165 2420 4570
-Wire Bus Line
-	4745 2965 4745 4570
 Text Notes 7680 2815 2    50   ~ 0
 RESET
 Text Notes 8490 3130 0    50   ~ 0
@@ -317,4 +312,42 @@ F 3 "" H 10740 6275 50  0001 C CNN
 	1    10740 6275
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7840 2415 7165 2415
+Wire Wire Line
+	7165 2415 7165 2035
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 650B3912
+P 6870 1935
+F 0 "J2" H 6842 1909 50  0000 R CNN
+F 1 "JMP_POWER" H 6842 1818 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6870 1935 50  0001 C CNN
+F 3 "~" H 6870 1935 50  0001 C CNN
+	1    6870 1935
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7165 1935 7165 1775
+$Comp
+L power:+5V #PWR04
+U 1 1 650B505F
+P 7165 1775
+F 0 "#PWR04" H 7165 1625 50  0001 C CNN
+F 1 "+5V" H 7180 1948 50  0000 C CNN
+F 2 "" H 7165 1775 50  0001 C CNN
+F 3 "" H 7165 1775 50  0001 C CNN
+	1    7165 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7070 1935 7165 1935
+Wire Wire Line
+	7070 2035 7165 2035
+Wire Bus Line
+	2420 3165 2420 4570
+Wire Bus Line
+	4745 2965 4745 4570
+Text Notes 6845 2280 2    50   ~ 0
+INSPIRED\nBY AMIGA!
 $EndSCHEMATC
