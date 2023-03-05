@@ -1,0 +1,191 @@
+<html class=" icys idc0_346"><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><script src="centronics_files/analytics.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app222.us.archive.org';v.server_ms=708;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="centronics_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="centronics_files/wombat.js" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://amigos.amiga.hu/plus4/plus4/centronics.htm","20220823164510","https://web.archive.org/","web","/_static/",
+	      "1661273110");
+</script>
+<link rel="stylesheet" type="text/css" href="centronics_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="centronics_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+<!-- base href="https://web.archive.org/web/20220823164510/https://amigos.amiga.hu/plus4/plus4/centronics.htm" -->
+<title></title>
+<style>[id*='google_ads_iframe'],[id*='taboola-'],.taboolaHeight,.taboola-placeholder,#credential_picker_container,#credential_picker_iframe,.google-one-tap-modal-div{display:none!important;min-height:0!important;height:0!important;}</style></head>
+
+<body background="centronics_files/Wrinkls.jpg"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" style="display: block; direction: ltr; height: 1px;" lang="en">
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20220823164510/http://amigos.amiga.hu/plus4/plus4/centronics.htm</div>
+<script type="text/javascript">//<![CDATA[
+__wm.bt(700,27,25,2,"web","https://amigos.amiga.hu/plus4/plus4/centronics.htm","20220823164510",1996,"/_static/",["/_static/css/banner-styles.css?v=S1zqJCYt","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+//]]></script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+ 
+
+<font size="1" face="Times New Roman"></font>
+<font size="2" face="Times New Roman">
+<p>A CENTRONICS-NYOMTATÓK ILLESZTÉSE A FELHASZNÁLÓI CSATLAKOZÓN KERESZTÜL</p>
+<p>A piacon ma már szinte áttekinthetetlen a nyomtatók választéka. Aki a 
+számítógépén intenzíven és célirányosan akar dolgozni, annak elõbb vagy utóbb 
+nyomtatót is be kell szereznie, mert ugyan mi haszna egy szövegfeldolgozó 
+programnak, ha a megszerkesztett szövegeket nem tudjuk papírra írni?</p>
+<p>A vásárláskor körültekintõen mérlegelnünk kell, hogy melyek a nyomtatóval 
+kapcsolatos jelenlegi és jövõbeli elképzeléseink. Beszerezhetünk pl. egy soros 
+interface-û, speciális Commodore nyomtatót, vagy pedig egy Centronics, azaz 
+párhuzamos interface-û nyomtatót.</p>
+<p>A Plus/4-esnek van egy soros interface-e, amelyhez pl. az 1541-es 
+lemezmeghajtó is csatlakoztatható. A gépbe párhuzamos interface viszont nincs 
+beépítve, de ez a felhasználói csatlakozón leképezhetõ. Ehhez természetesen 
+minden alkalommal be kell tölteni a megfelelõ programot, ami persze nehezíti a 
+dolgunkat, de arra is gondoljunk, hogy a nyomtatóra még akkor is szükségünk 
+lehet, amikor esetleg egy másik számítógépre térünk át. A Commodore AMIGA gépe 
+pl. már sorozatban Centronics-interface-szel készül.</p>
+<p>A következõkben bemutatjuk, hogy miként lehet a felhasználói csatlakozót 
+Centronics-interface-szé átalakítani. (Sajnos a példaprogramunk a Plus/4-esbe 
+épített szoftverekkel nem tud együttmûködni.)</p>
+<p>A Centronics-interface-t a Centronics cég fejlesztette ki a nyomtatói 
+számára. Ez az interface rövid idõ alatt egyfajta szabvánnyá vált, és idõközben 
+szinte valamennyi nyomtatóhoz kapható, ill. a nyomtatókba már be van építve. A 
+Centronics-intérface esetén a számítógép az adatokat párhuzamosan küldi a 
+nyomtatóhoz. A nyolc adatvezeték mellett van még egy sereg más, a vezérlõ 
+funkciókat ellátó vezeték is, amelyek egy 36 pólusú csatlakozóban vannak 
+összefogva. A Centronics-interface mûködtetéséhez nekünk viszont csak a 8 
+adatvezetékre, a BUSY, a -STROBE és a földvezetékre van szükségünk.</p>
+<p>Eszerint tehát kell egy minimun l l erû kábel, amelynek az egyik végén a Plus/4-es 
+felhasználói csatlakozójába illõ, a másik végén pedig a Centronics-csatlakozóba 
+illõ dugasz van. Az alkatrészeket megvehetjük szaküzletben, a forrasztásokat 
+saját magunk végezhetjük. A kábel bekötése a következõ:</p>
+</font><font size="1" face="Times New Roman">
+<p>&nbsp;</p>
+</font><font size="2" face="Times New Roman">
+<p>Felhasználói&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jelölés&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+Centronics- <br>
+csatlakozó&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+csatlakozó <br>
+érintkezöi&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+érintkezöi</p>
+<p>A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+föld&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+16</p>
+<p>B&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+PO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+2</p>
+<p>K&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+Pl&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+3</p>
+<p>4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+P2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+4</p>
+<p>5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+P3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+5</p>
+<p>6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+P4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+6</p>
+<p>7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+P5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+7</p>
+<p>J&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+P6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+8</p>
+<p>F&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+P7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+7</p>
+<p>H&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+(DCD)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 11</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+BUSY</p>
+<p>D&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+(RTS)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
+-STROBE</p>
+<p>Ezzel a kábelünk már meg is volna. Lássuk most a hozzá való programot:</p>
+<p><img src="centronics_files/centronics4.gif" width="595" height="275" border="0"><br>
+<img src="centronics_files/centronics5.gif" class="" width="595" height="297" border="0"></p>
+<p>A program indítása.. SYS 1630</p>
+<p>Ezután az OPEN 1,4</p>
+<p>utasítással megnyithatjuk a nyomtató csatornát. A kiírás a 
+Centronics-interface-en keresztül történik. Ha mindent jól csináltunk, akkor 
+ennek mûködnie kell. Most pl. papírra nyomtathatjuk az elõbbi 
+Centronics-programunkat:</p>
+<p>CMDI</p>
+<p>MONITOR</p>
+<p>D 065E 0695</p>
+<p>Az itt kinyomtatott programmal (és egy 1541-es meghajtót csatlakoztatva) a 
+Plus/4-es kifogástalanul mûködtetett egy EPSON-LX80 és egy Speedy 100-80 típusú 
+nyomtatót. Más készülékeket sajnos nem tudtunk kipróbálni.</p>
+<p>Még néhány szó a Centronics-interface-hez. A programot elláttuk ugyan néhány 
+megjegyzéssel, de azért szeretnénk elmagyarázni a mûködését.</p>
+<p>Elõször az adatvezetékeket kell bekapcsolni, ami a programban a $O680-as 
+címen történik. Ezután közölni kell a nyomtatóval, hogy az adatvezetékeken 
+érvényes adatok vannak. Ez a -STROBE vezetéken keresztül történik. Mivel a -STROBE 
+low-aktív jel, ezt nullára kell állítani. Ennek a jelnek minimum 0,5 
+mikroszekundum hosszan aktívnak kell lennie, ezután ismét magasra (1) állítható. 
+Mivel a Plus/4-esünk azért ilyen gyorsan nem dolgozik, megtehetjük, hogya -STROBE-ot 
+közvetlenül egymás után O-ra majd ismét 1-re állítjuk.</p>
+<p>Közvetlenül aztán, hogya -STROBE aktív lett, a nyomtató a BUSY (magyarul = 
+foglalt) vezetéket magasra állítja. A BUSY mindaddíg magas, míg a karakter 
+kinyomtatását be nem fejezte. Amikor a nyomtatással végzett, akkor az alacsonyra 
+állításával jelzi, hogy kész az újabb karakter fogadására. A BUSY vezeték 
+állapotát a programban a $O68F címen kérdezzük Ie.</p>
+<p>Még megjegyezzük, hogya Plus/4-es LF-jelet (LINE FEED, soremelés) nem küld a 
+nyomtatóhoz. A nyomtatón levõ mikrokapcsoló beállításával azonban 
+bekapcsolhatjuk az úgynevezett AUTO-FEED üzemmódot. Ilyenkor a nyomtató minden 
+esetben, amikor egy kocsi vissza (CR) jelet kap, automatikusan egy soremelést is 
+végrehajt. Ha a nyomtatónkat mégsem lehetne így beállítani, akkor a 
+Centronics-programunkat kell módosítanunk. Ekkor minden jelnél meg kell 
+vizsgálni, hogy nem CR ($CD) jel-e. Amennyiben igen, akkor még egy LF ($OA) 
+jelet is ki kell küldeni.</p>
+</font>
+
+
+<div></div></body></html>
+<!--
+     FILE ARCHIVED ON 16:45:10 Aug 23, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 10:42:54 Mar 05, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 103.86 (11)
+  exclusion.robots: 0.183
+  exclusion.robots.policy: 0.173
+  RedisCDXSource: 0.775
+  esindex: 0.008
+  LoadShardBlock: 85.926 (3)
+  PetaboxLoader3.datanode: 210.356 (5)
+  load_resource: 598.272 (2)
+  PetaboxLoader3.resolve: 392.248 (2)
+-->

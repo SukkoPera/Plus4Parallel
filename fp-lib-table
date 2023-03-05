@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Plus4Parallel)(type KiCad)(uri ${KIPRJMOD}/Plus4Parallel.pretty)(options "")(descr ""))
+)
