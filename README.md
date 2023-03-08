@@ -6,12 +6,12 @@ Plus4Parallel is an Open Hardware Parallel Port Adapter that plugs into the Comm
 ## Summary
 The +4 User Port can be converted to a standard PC parallel port to some extent. It should be at least compatible with printers of the era bearing a *Centronics* interface (such as the Commodore MPS 1230, MPS-1550C or Epson LX-80, for instance). You will need a Parallel to Centronics cable to connect one, but those should be easy to find even nowadays.
 
+Only the 8-bit data port and the `/STROBE` and `/BUSY` signals are handled.
+
 The board plugs in the User Port, which means that it can also be used on a C16 or C116 through [a User Port card](https://github.com/SukkoPera/16up).
 
 ## Notes
 **THIS BOARD IS UNTESTED!!!**
-
-Only the 8-bit data port and the `/STROBE` and `/BUSY` signals are handled.
 
 There is an alternative parallel cable layout from Solder/Synergy, which is different and incompatible with this layout, I think. Unfortunately I cannot find any information on it, it would be great if someone could help documenting it.
 
