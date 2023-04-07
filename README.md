@@ -25,10 +25,18 @@ The Plus4Parallel documentation, including the design itself, is copyright &copy
 
 This documentation is distributed *as is* and WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES whatsoever with respect to its functionality, operability or use, including, without limitation, any implied warranties OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR PURPOSE or infringement. We expressly disclaim any liability whatsoever for any direct, indirect, consequential, incidental or special damages, including, without limitation, lost revenues, lost profits, losses resulting from business interruption or loss of data, regardless of the form of action or legal theory under which the liability may be asserted, even if advised of the possibility or likelihood of such damages.
 
-## Thanks
-* This is based on some old documents found with the Wayback Machine. They have been included in the [doc](doc/) directory.
-
 ## Support the Project
-You can buy me a coffee if you want:
+If you want to get some boards manufactured, you can get them from PCBWay through this link:
+
+[![PCB from PCBWay](https://www.pcbway.com/project/img/images/frompcbway.png)](https://www.pcbway.com/project/shareproject/https://www.pcbway.com/project/shareproject/Plus4Parallel_Parallel_Port_Adapter_for_the_Plus_4_b87ebab1.html)
+
+You get my gratitude and cheap, professionally-made and good quality PCBs, I get some credit that will help with this and [other projects](https://www.pcbway.com/project/member/shareproject/?bmbid=41100). You won't even have to worry about the various PCB options, it's all pre-configured for you!
+
+Also, if you still have to register, [you can use this link](https://www.pcbway.com/setinvite.aspx?inviteid=41100) to get some bonus initial credit (and yield me some more).
+
+You can also buy me a coffee if you want:
 
 <a href='https://ko-fi.com/L3L0U18L' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=2' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
+## Thanks
+* This is based on some old documents found with the Wayback Machine. They have been included in the [doc](doc/) directory.
